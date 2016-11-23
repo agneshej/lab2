@@ -1,0 +1,14 @@
+
+
+def list(x,hx,i):
+  if listan(hx+i) == []
+    listan.insert(hx+i,x)
+    return [listan,i]
+  else
+    return list(x,hx,i+1)  ## down
+
+
+listan = []
+x = 'agnes'
+hx = 13
+[listan,i] = list(x,hx,0)
